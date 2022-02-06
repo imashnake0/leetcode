@@ -19,8 +19,11 @@ Given an integer array `nums`, return `true` if any value appears at least twice
 
 ### TODO
 
-- [ ] Get a better understanding of how [lambda expressions and higher-order](https://kotlinlang.org/docs/lambdas.html) functions work.
-- [ ] Understand [ranges and progressions](https://kotlinlang.org/docs/ranges.html) better.
+* [ ] Get a better understanding of how [lambda expressions and higher-order](https://kotlinlang.org/docs/lambdas.html) functions work.
+
+  * Watch [Java 8 Lambda Basics](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTa9YGfyhyW2CqdtW9RtY-I3).
+
+* [ ] Understand [ranges and progressions](https://kotlinlang.org/docs/ranges.html) better.
 
 ## Attempt 2
 
@@ -34,7 +37,7 @@ Given an integer array `nums`, return `true` if any value appears at least twice
 
 ### TODO
 
-- [ ] Take a closer look at the [different sort methods](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-collection/).
+* [ ] Take a closer look at the [different sort methods](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-collection/).
 
 ## Attempt 3
 
@@ -48,7 +51,8 @@ Given an integer array `nums`, return `true` if any value appears at least twice
 
 ### TODO
 
-- [ ] See if `toSet()` applies to all collections, i.e., if you can convert from one collection to another and what the constraints are.
+* [ ] See if `toSet()` applies to all collections, i.e., if you can convert from one collection to another and what the constraints are.
+
 ## Solution
 
 * There is a more elegant way of writing [Attempt 3](#attempt-3), instead of having an if-else statement that evaluates a boolean and also returns `true` or `false` depending on the value, we can simply return the boolean, like so:

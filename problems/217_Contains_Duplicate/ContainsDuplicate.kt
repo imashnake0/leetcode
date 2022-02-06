@@ -1,4 +1,4 @@
-// Attempt 1
+/** Attempt 1 */
 /*
 class ContainsDuplicate() {
     fun containsDuplicate(nums: IntArray): Boolean {
@@ -18,7 +18,7 @@ class ContainsDuplicate() {
 }
 */
 
-// Attempt 2
+/** Attempt 2 */
 /*
 class ContainsDuplicate {
     fun containsDuplicate(nums: IntArray): Boolean {
@@ -33,7 +33,7 @@ class ContainsDuplicate {
 }
 */
 
-// Attempt 3
+/** Attempt 3 */
 class ContainsDuplicate {
     fun containsDuplicate(nums: IntArray): Boolean {
         val numsSet = nums.toSet()
@@ -44,7 +44,7 @@ class ContainsDuplicate {
     }
 }
 
-// Solution
+/** Solution */
 /*
 class ContainsDuplicate {
     fun containsDuplicate(nums: IntArray): Boolean {
