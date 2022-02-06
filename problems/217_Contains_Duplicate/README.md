@@ -49,3 +49,18 @@ Given an integer array `nums`, return `true` if any value appears at least twice
 ### TODO
 
 - [ ] See if `toSet()` applies to all collections, i.e., if you can convert from one collection to another and what the constraints are.
+## Solution
+
+* There is a more elegant way of writing [Attempt 3](#attempt-3), instead of having an if-else statement that evaluates a boolean and also returns `true` or `false` depending on the value, we can simply return the boolean, like so:
+
+```kotlin
+fun containsDuplicate(nums: IntArray): Boolean = nums.toSet().size != nums.size
+```
+
+* There are faster solutions that make use of a [`HashMap`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-hash-map/).
+
+### TODO
+
+* [ ] Reading: Go through [collections that are a part of the Kotlin standard library](https://kotlinlang.org/docs/collections-overview.html).
+* [ ] Reading: Go through relevant sections in [CLRS](https://github.com/ontiyonke/book-1/blob/master/%5BALGORITHMS%5D%5BIntroduction%20to%20Algorithms.%20Third%20Edition%5D.pdf).
+* [ ] Finally, revisit this problem and solve using a HashMap.

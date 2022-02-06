@@ -43,3 +43,18 @@ class ContainsDuplicate {
         return true
     }
 }
+
+// Solution
+/*
+class ContainsDuplicate {
+    fun containsDuplicate(nums: IntArray): Boolean {
+        val memory = HashSet<Int>()
+        for (num in nums) {
+            if (!memory.add(num)) {
+                return true
+            }
+        }
+        return false
+    }
+}
+*/
