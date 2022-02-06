@@ -22,7 +22,7 @@ class ContainsDuplicate() {
 /*
 class ContainsDuplicate {
     fun containsDuplicate(nums: IntArray): Boolean {
-        val numsSorted = nums.sorted()
+        val numsSorted = nums.sortedArray()
         for (i in 0 until numsSorted.lastIndex) {
             if (numsSorted[i] == numsSorted[i + 1]) {
                 return true
