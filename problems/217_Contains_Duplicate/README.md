@@ -20,9 +20,7 @@ Given an integer array `nums`, return `true` if any value appears at least twice
 ### TODO
 
 * [ ] Get a better understanding of how [lambda expressions and higher-order](https://kotlinlang.org/docs/lambdas.html) functions work.
-
   * Watch [Java 8 Lambda Basics](https://www.youtube.com/playlist?list=PLqq-6Pq4lTTa9YGfyhyW2CqdtW9RtY-I3).
-
 * [ ] Understand [ranges and progressions](https://kotlinlang.org/docs/ranges.html) better.
 
 ## Attempt 2
@@ -56,11 +54,9 @@ Given an integer array `nums`, return `true` if any value appears at least twice
 ## Solution
 
 * There is a more elegant way of writing [Attempt 3](#attempt-3), instead of having an if-else statement that evaluates a boolean and also returns `true` or `false` depending on the value, we can simply return the boolean, like so:
-
 ```kotlin
 fun containsDuplicate(nums: IntArray): Boolean = nums.toSet().size != nums.size
 ```
-
 * There are faster solutions that make use of a [`HashMap`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-hash-map/).
 
 ### TODO
